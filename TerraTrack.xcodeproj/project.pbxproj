@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD02E4A72C6A553A007CF61E /* central.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4A62C6A553A007CF61E /* central.swift */; };
 		BD02E4A92C6A5562007CF61E /* Whatbuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4A82C6A5562007CF61E /* Whatbuy.swift */; };
 		BD02E4AB2C6A579B007CF61E /* centralfood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4AA2C6A579B007CF61E /* centralfood.swift */; };
 		BD02E4AD2C6A57BA007CF61E /* centralshopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4AC2C6A57BA007CF61E /* centralshopping.swift */; };
 		BD02E4AF2C6A57CC007CF61E /* centraltransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4AE2C6A57CC007CF61E /* centraltransport.swift */; };
+		BD39CC4C2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */; };
+		BD39CC4D2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */; };
+		BD39CC4E2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */; };
+		BD39CC512C6B9124005D4ADE /* mapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC502C6B9124005D4ADE /* mapPage.swift */; };
+		BD39CC522C6B9124005D4ADE /* mapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC502C6B9124005D4ADE /* mapPage.swift */; };
+		BD39CC532C6B9124005D4ADE /* mapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC502C6B9124005D4ADE /* mapPage.swift */; };
+		BD39CC552C6B9152005D4ADE /* foodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC542C6B9152005D4ADE /* foodPage.swift */; };
+		BD39CC562C6B9152005D4ADE /* foodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC542C6B9152005D4ADE /* foodPage.swift */; };
+		BD39CC572C6B9152005D4ADE /* foodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC542C6B9152005D4ADE /* foodPage.swift */; };
+		BD39CC592C6B916A005D4ADE /* transportationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC582C6B916A005D4ADE /* transportationPage.swift */; };
+		BD39CC5A2C6B916A005D4ADE /* transportationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC582C6B916A005D4ADE /* transportationPage.swift */; };
+		BD39CC5B2C6B916A005D4ADE /* transportationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC582C6B916A005D4ADE /* transportationPage.swift */; };
+		BD39CC5D2C6B9564005D4ADE /* whatBuy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */; };
+		BD39CC5E2C6B9564005D4ADE /* whatBuy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */; };
+		BD39CC5F2C6B9564005D4ADE /* whatBuy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */; };
 		BDBD19C62C6A1ECF0009C775 /* TerraTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */; };
 		BDBD19C82C6A1ECF0009C775 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19C72C6A1ECF0009C775 /* ContentView.swift */; };
 		BDBD19CA2C6A1ED00009C775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBD19C92C6A1ED00009C775 /* Assets.xcassets */; };
@@ -39,11 +53,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD02E4A62C6A553A007CF61E /* central.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = central.swift; sourceTree = "<group>"; };
 		BD02E4A82C6A5562007CF61E /* Whatbuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whatbuy.swift; sourceTree = "<group>"; };
 		BD02E4AA2C6A579B007CF61E /* centralfood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralfood.swift; sourceTree = "<group>"; };
 		BD02E4AC2C6A57BA007CF61E /* centralshopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralshopping.swift; sourceTree = "<group>"; };
 		BD02E4AE2C6A57CC007CF61E /* centraltransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centraltransport.swift; sourceTree = "<group>"; };
+		BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dynamo W04 Bold Condensed.ttf"; sourceTree = "<group>"; };
+		BD39CC4F2C6B8B71005D4ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD39CC502C6B9124005D4ADE /* mapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapPage.swift; sourceTree = "<group>"; };
+		BD39CC542C6B9152005D4ADE /* foodPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodPage.swift; sourceTree = "<group>"; };
+		BD39CC582C6B916A005D4ADE /* transportationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transportationPage.swift; sourceTree = "<group>"; };
+		BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuy2.swift; sourceTree = "<group>"; };
 		BDBD19C22C6A1ECF0009C775 /* TerraTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraTrackApp.swift; sourceTree = "<group>"; };
 		BDBD19C72C6A1ECF0009C775 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD39CC4A2C6B8B24005D4ADE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		BDBD19B92C6A1ECF0009C775 = {
 			isa = PBXGroup;
 			children = (
@@ -104,11 +131,16 @@
 		BDBD19C42C6A1ECF0009C775 /* TerraTrack */ = {
 			isa = PBXGroup;
 			children = (
+				BD39CC4F2C6B8B71005D4ADE /* Info.plist */,
+				BD39CC542C6B9152005D4ADE /* foodPage.swift */,
+				BD39CC582C6B916A005D4ADE /* transportationPage.swift */,
 				BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */,
 				BDBD19C72C6A1ECF0009C775 /* ContentView.swift */,
+				BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */,
 				BD02E4A82C6A5562007CF61E /* Whatbuy.swift */,
-				BD02E4A62C6A553A007CF61E /* central.swift */,
+				BD39CC502C6B9124005D4ADE /* mapPage.swift */,
 				BDBD19C92C6A1ED00009C775 /* Assets.xcassets */,
+				BD39CC4A2C6B8B24005D4ADE /* Font */,
 				BD02E4AA2C6A579B007CF61E /* centralfood.swift */,
 				BD02E4AC2C6A57BA007CF61E /* centralshopping.swift */,
 				BD02E4AE2C6A57CC007CF61E /* centraltransport.swift */,
@@ -247,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBD19CD2C6A1ED00009C775 /* Preview Assets.xcassets in Resources */,
+				BD39CC4C2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */,
 				BDBD19CA2C6A1ED00009C775 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD39CC4D2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD39CC4E2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +308,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD02E4AB2C6A579B007CF61E /* centralfood.swift in Sources */,
+				BD39CC5D2C6B9564005D4ADE /* whatBuy2.swift in Sources */,
+				BD39CC512C6B9124005D4ADE /* mapPage.swift in Sources */,
 				BD02E4AD2C6A57BA007CF61E /* centralshopping.swift in Sources */,
+				BD39CC592C6B916A005D4ADE /* transportationPage.swift in Sources */,
 				BD02E4A92C6A5562007CF61E /* Whatbuy.swift in Sources */,
-				BD02E4A72C6A553A007CF61E /* central.swift in Sources */,
 				BDBD19C82C6A1ECF0009C775 /* ContentView.swift in Sources */,
 				BD02E4AF2C6A57CC007CF61E /* centraltransport.swift in Sources */,
+				BD39CC552C6B9152005D4ADE /* foodPage.swift in Sources */,
 				BDBD19C62C6A1ECF0009C775 /* TerraTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD39CC5A2C6B916A005D4ADE /* transportationPage.swift in Sources */,
+				BD39CC5E2C6B9564005D4ADE /* whatBuy2.swift in Sources */,
+				BD39CC562C6B9152005D4ADE /* foodPage.swift in Sources */,
 				BDBD19D72C6A1ED00009C775 /* TerraTrackTests.swift in Sources */,
+				BD39CC522C6B9124005D4ADE /* mapPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBD19E12C6A1ED10009C775 /* TerraTrackUITests.swift in Sources */,
+				BD39CC5F2C6B9564005D4ADE /* whatBuy2.swift in Sources */,
+				BD39CC5B2C6B916A005D4ADE /* transportationPage.swift in Sources */,
 				BDBD19E32C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift in Sources */,
+				BD39CC572C6B9152005D4ADE /* foodPage.swift in Sources */,
+				BD39CC532C6B9124005D4ADE /* mapPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +490,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TerraTrack/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TerraTrack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,6 +519,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TerraTrack/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TerraTrack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
