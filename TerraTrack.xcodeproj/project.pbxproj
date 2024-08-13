@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD02E4A72C6A553A007CF61E /* central.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4A62C6A553A007CF61E /* central.swift */; };
+		BD02E4A92C6A5562007CF61E /* Whatbuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4A82C6A5562007CF61E /* Whatbuy.swift */; };
+		BD02E4AB2C6A579B007CF61E /* centralfood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4AA2C6A579B007CF61E /* centralfood.swift */; };
+		BD02E4AD2C6A57BA007CF61E /* centralshopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4AC2C6A57BA007CF61E /* centralshopping.swift */; };
+		BD02E4AF2C6A57CC007CF61E /* centraltransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4AE2C6A57CC007CF61E /* centraltransport.swift */; };
+		BDBD19C62C6A1ECF0009C775 /* TerraTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */; };
+		BDBD19C82C6A1ECF0009C775 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19C72C6A1ECF0009C775 /* ContentView.swift */; };
+		BDBD19CA2C6A1ED00009C775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBD19C92C6A1ED00009C775 /* Assets.xcassets */; };
+		BDBD19CD2C6A1ED00009C775 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBD19CC2C6A1ED00009C775 /* Preview Assets.xcassets */; };
+		BDBD19D72C6A1ED00009C775 /* TerraTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19D62C6A1ED00009C775 /* TerraTrackTests.swift */; };
+		BDBD19E12C6A1ED10009C775 /* TerraTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19E02C6A1ED10009C775 /* TerraTrackUITests.swift */; };
+		BDBD19E32C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19E22C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBD19D32C6A1ED00009C775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBD19BA2C6A1ECF0009C775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBD19C12C6A1ECF0009C775;
+			remoteInfo = TerraTrack;
+		};
+		BDBD19DD2C6A1ED10009C775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBD19BA2C6A1ECF0009C775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBD19C12C6A1ECF0009C775;
+			remoteInfo = TerraTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD02E4A62C6A553A007CF61E /* central.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = central.swift; sourceTree = "<group>"; };
+		BD02E4A82C6A5562007CF61E /* Whatbuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whatbuy.swift; sourceTree = "<group>"; };
+		BD02E4AA2C6A579B007CF61E /* centralfood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralfood.swift; sourceTree = "<group>"; };
+		BD02E4AC2C6A57BA007CF61E /* centralshopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralshopping.swift; sourceTree = "<group>"; };
+		BD02E4AE2C6A57CC007CF61E /* centraltransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centraltransport.swift; sourceTree = "<group>"; };
+		BDBD19C22C6A1ECF0009C775 /* TerraTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraTrackApp.swift; sourceTree = "<group>"; };
+		BDBD19C72C6A1ECF0009C775 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDBD19C92C6A1ED00009C775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDBD19CC2C6A1ED00009C775 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDBD19D22C6A1ED00009C775 /* TerraTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBD19D62C6A1ED00009C775 /* TerraTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraTrackTests.swift; sourceTree = "<group>"; };
+		BDBD19DC2C6A1ED10009C775 /* TerraTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBD19E02C6A1ED10009C775 /* TerraTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraTrackUITests.swift; sourceTree = "<group>"; };
+		BDBD19E22C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBD19BF2C6A1ECF0009C775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBD19CF2C6A1ED00009C775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBD19D92C6A1ED10009C775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDBD19B92C6A1ECF0009C775 = {
+			isa = PBXGroup;
+			children = (
+				BDBD19C42C6A1ECF0009C775 /* TerraTrack */,
+				BDBD19D52C6A1ED00009C775 /* TerraTrackTests */,
+				BDBD19DF2C6A1ED10009C775 /* TerraTrackUITests */,
+				BDBD19C32C6A1ECF0009C775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBD19C32C6A1ECF0009C775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD19C22C6A1ECF0009C775 /* TerraTrack.app */,
+				BDBD19D22C6A1ED00009C775 /* TerraTrackTests.xctest */,
+				BDBD19DC2C6A1ED10009C775 /* TerraTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBD19C42C6A1ECF0009C775 /* TerraTrack */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */,
+				BDBD19C72C6A1ECF0009C775 /* ContentView.swift */,
+				BD02E4A82C6A5562007CF61E /* Whatbuy.swift */,
+				BD02E4A62C6A553A007CF61E /* central.swift */,
+				BDBD19C92C6A1ED00009C775 /* Assets.xcassets */,
+				BD02E4AA2C6A579B007CF61E /* centralfood.swift */,
+				BD02E4AC2C6A57BA007CF61E /* centralshopping.swift */,
+				BD02E4AE2C6A57CC007CF61E /* centraltransport.swift */,
+				BDBD19CB2C6A1ED00009C775 /* Preview Content */,
+			);
+			path = TerraTrack;
+			sourceTree = "<group>";
+		};
+		BDBD19CB2C6A1ED00009C775 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD19CC2C6A1ED00009C775 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDBD19D52C6A1ED00009C775 /* TerraTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD19D62C6A1ED00009C775 /* TerraTrackTests.swift */,
+			);
+			path = TerraTrackTests;
+			sourceTree = "<group>";
+		};
+		BDBD19DF2C6A1ED10009C775 /* TerraTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD19E02C6A1ED10009C775 /* TerraTrackUITests.swift */,
+				BDBD19E22C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift */,
+			);
+			path = TerraTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBD19C12C6A1ECF0009C775 /* TerraTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBD19E62C6A1ED10009C775 /* Build configuration list for PBXNativeTarget "TerraTrack" */;
+			buildPhases = (
+				BDBD19BE2C6A1ECF0009C775 /* Sources */,
+				BDBD19BF2C6A1ECF0009C775 /* Frameworks */,
+				BDBD19C02C6A1ECF0009C775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerraTrack;
+			productName = TerraTrack;
+			productReference = BDBD19C22C6A1ECF0009C775 /* TerraTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBD19D12C6A1ED00009C775 /* TerraTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBD19E92C6A1ED10009C775 /* Build configuration list for PBXNativeTarget "TerraTrackTests" */;
+			buildPhases = (
+				BDBD19CE2C6A1ED00009C775 /* Sources */,
+				BDBD19CF2C6A1ED00009C775 /* Frameworks */,
+				BDBD19D02C6A1ED00009C775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBD19D42C6A1ED00009C775 /* PBXTargetDependency */,
+			);
+			name = TerraTrackTests;
+			productName = TerraTrackTests;
+			productReference = BDBD19D22C6A1ED00009C775 /* TerraTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDBD19DB2C6A1ED10009C775 /* TerraTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBD19EC2C6A1ED10009C775 /* Build configuration list for PBXNativeTarget "TerraTrackUITests" */;
+			buildPhases = (
+				BDBD19D82C6A1ED10009C775 /* Sources */,
+				BDBD19D92C6A1ED10009C775 /* Frameworks */,
+				BDBD19DA2C6A1ED10009C775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBD19DE2C6A1ED10009C775 /* PBXTargetDependency */,
+			);
+			name = TerraTrackUITests;
+			productName = TerraTrackUITests;
+			productReference = BDBD19DC2C6A1ED10009C775 /* TerraTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBD19BA2C6A1ECF0009C775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BDBD19C12C6A1ECF0009C775 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BDBD19D12C6A1ED00009C775 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BDBD19C12C6A1ECF0009C775;
+					};
+					BDBD19DB2C6A1ED10009C775 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BDBD19C12C6A1ECF0009C775;
+					};
+				};
+			};
+			buildConfigurationList = BDBD19BD2C6A1ECF0009C775 /* Build configuration list for PBXProject "TerraTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBD19B92C6A1ECF0009C775;
+			productRefGroup = BDBD19C32C6A1ECF0009C775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBD19C12C6A1ECF0009C775 /* TerraTrack */,
+				BDBD19D12C6A1ED00009C775 /* TerraTrackTests */,
+				BDBD19DB2C6A1ED10009C775 /* TerraTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBD19C02C6A1ECF0009C775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBD19CD2C6A1ED00009C775 /* Preview Assets.xcassets in Resources */,
+				BDBD19CA2C6A1ED00009C775 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBD19D02C6A1ED00009C775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBD19DA2C6A1ED10009C775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBD19BE2C6A1ECF0009C775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD02E4AB2C6A579B007CF61E /* centralfood.swift in Sources */,
+				BD02E4AD2C6A57BA007CF61E /* centralshopping.swift in Sources */,
+				BD02E4A92C6A5562007CF61E /* Whatbuy.swift in Sources */,
+				BD02E4A72C6A553A007CF61E /* central.swift in Sources */,
+				BDBD19C82C6A1ECF0009C775 /* ContentView.swift in Sources */,
+				BD02E4AF2C6A57CC007CF61E /* centraltransport.swift in Sources */,
+				BDBD19C62C6A1ECF0009C775 /* TerraTrackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBD19CE2C6A1ED00009C775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBD19D72C6A1ED00009C775 /* TerraTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBD19D82C6A1ED10009C775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBD19E12C6A1ED10009C775 /* TerraTrackUITests.swift in Sources */,
+				BDBD19E32C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBD19D42C6A1ED00009C775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBD19C12C6A1ECF0009C775 /* TerraTrack */;
+			targetProxy = BDBD19D32C6A1ED00009C775 /* PBXContainerItemProxy */;
+		};
+		BDBD19DE2C6A1ED10009C775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBD19C12C6A1ECF0009C775 /* TerraTrack */;
+			targetProxy = BDBD19DD2C6A1ED10009C775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDBD19E42C6A1ED10009C775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDBD19E52C6A1ED10009C775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBD19E72C6A1ED10009C775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TerraTrack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TerraTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBD19E82C6A1ED10009C775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TerraTrack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TerraTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDBD19EA2C6A1ED10009C775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TerraTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TerraTrack";
+			};
+			name = Debug;
+		};
+		BDBD19EB2C6A1ED10009C775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TerraTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TerraTrack";
+			};
+			name = Release;
+		};
+		BDBD19ED2C6A1ED10009C775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TerraTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerraTrack;
+			};
+			name = Debug;
+		};
+		BDBD19EE2C6A1ED10009C775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.TerraTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerraTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBD19BD2C6A1ECF0009C775 /* Build configuration list for PBXProject "TerraTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBD19E42C6A1ED10009C775 /* Debug */,
+				BDBD19E52C6A1ED10009C775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBD19E62C6A1ED10009C775 /* Build configuration list for PBXNativeTarget "TerraTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBD19E72C6A1ED10009C775 /* Debug */,
+				BDBD19E82C6A1ED10009C775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBD19E92C6A1ED10009C775 /* Build configuration list for PBXNativeTarget "TerraTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBD19EA2C6A1ED10009C775 /* Debug */,
+				BDBD19EB2C6A1ED10009C775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBD19EC2C6A1ED10009C775 /* Build configuration list for PBXNativeTarget "TerraTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBD19ED2C6A1ED10009C775 /* Debug */,
+				BDBD19EE2C6A1ED10009C775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBD19BA2C6A1ECF0009C775 /* Project object */;
+}
