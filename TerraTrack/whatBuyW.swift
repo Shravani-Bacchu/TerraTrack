@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct whatBuy2: View {
+struct whatBuyW: View {
     var body: some View{
     
-        NavigationStack {
+        NavigationStack{
     ZStack{
         
         Color(.systemBrown)
             .ignoresSafeArea()
             VStack{
-                NavigationLink(destination: centralShopping()) {
+                NavigationLink(destination:  westTransportation()) {
                   ZStack{
                     Rectangle()
                       .frame(width: 300.0, height: 150.0)
@@ -29,7 +29,7 @@ struct whatBuy2: View {
                   }
                 }
               .padding(/*@START_MENU_TOKEN@*/.all, 35.0/*@END_MENU_TOKEN@*/)
-                NavigationLink(destination: centralFood()) {
+                NavigationLink(destination: westFood()) {
                   ZStack{
                     Rectangle()
                       .frame(width: 300.0, height: 150.0)
@@ -42,7 +42,7 @@ struct whatBuy2: View {
                   }
                 }
               .padding(/*@START_MENU_TOKEN@*/.all, 35.0/*@END_MENU_TOKEN@*/)
-                NavigationLink(destination: centralTransportation()) {
+                NavigationLink(destination: westShopping()) {
                   ZStack{
                     Rectangle()
                       .frame(width: 300.0, height: 150.0)
@@ -55,13 +55,13 @@ struct whatBuy2: View {
                   }
                 }
               .padding(/*@START_MENU_TOKEN@*/.all, 35.0/*@END_MENU_TOKEN@*/)
-                
-            } //closes vstack
-          } // closes the zstack
-        } // closes the navigation stack
+            }//closes navigation link
+          } // closes the vstack
+        } // closes the z stack
       }
     }
    
 #Preview {
     whatBuy2()
 }
+

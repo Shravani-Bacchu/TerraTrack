@@ -1,18 +1,18 @@
 //
-//  centraltransport.swift
+//  northShopping.swift
 //  TerraTrack
 //
-//  Created by Scholar on 12/08/2024.
+//  Created by Scholar on 14/08/2024.
 //
 
 import SwiftUI
 
-struct centraltransport: View {
+struct northShopping: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    centraltransport()
+    northShopping()
 }

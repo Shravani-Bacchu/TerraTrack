@@ -7,22 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD02E4A92C6A5562007CF61E /* Whatbuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4A82C6A5562007CF61E /* Whatbuy.swift */; };
-		BD02E4AB2C6A579B007CF61E /* centralfood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4AA2C6A579B007CF61E /* centralfood.swift */; };
-		BD02E4AD2C6A57BA007CF61E /* centralshopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4AC2C6A57BA007CF61E /* centralshopping.swift */; };
-		BD02E4AF2C6A57CC007CF61E /* centraltransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E4AE2C6A57CC007CF61E /* centraltransport.swift */; };
 		BD39CC4C2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */; };
 		BD39CC4D2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */; };
 		BD39CC4E2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */; };
-		BD39CC512C6B9124005D4ADE /* mapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC502C6B9124005D4ADE /* mapPage.swift */; };
-		BD39CC522C6B9124005D4ADE /* mapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC502C6B9124005D4ADE /* mapPage.swift */; };
-		BD39CC532C6B9124005D4ADE /* mapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC502C6B9124005D4ADE /* mapPage.swift */; };
-		BD39CC552C6B9152005D4ADE /* foodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC542C6B9152005D4ADE /* foodPage.swift */; };
-		BD39CC562C6B9152005D4ADE /* foodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC542C6B9152005D4ADE /* foodPage.swift */; };
-		BD39CC572C6B9152005D4ADE /* foodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC542C6B9152005D4ADE /* foodPage.swift */; };
-		BD39CC592C6B916A005D4ADE /* transportationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC582C6B916A005D4ADE /* transportationPage.swift */; };
-		BD39CC5A2C6B916A005D4ADE /* transportationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC582C6B916A005D4ADE /* transportationPage.swift */; };
-		BD39CC5B2C6B916A005D4ADE /* transportationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC582C6B916A005D4ADE /* transportationPage.swift */; };
 		BD39CC5D2C6B9564005D4ADE /* whatBuy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */; };
 		BD39CC5E2C6B9564005D4ADE /* whatBuy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */; };
 		BD39CC5F2C6B9564005D4ADE /* whatBuy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */; };
@@ -33,6 +20,25 @@
 		BDBD19D72C6A1ED00009C775 /* TerraTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19D62C6A1ED00009C775 /* TerraTrackTests.swift */; };
 		BDBD19E12C6A1ED10009C775 /* TerraTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19E02C6A1ED10009C775 /* TerraTrackUITests.swift */; };
 		BDBD19E32C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19E22C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift */; };
+		BDC85A442C6CD6CB0001C46D /* whatBuyN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A432C6CD6CB0001C46D /* whatBuyN.swift */; };
+		BDC85A462C6CD70E0001C46D /* whatBuyW.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A452C6CD70E0001C46D /* whatBuyW.swift */; };
+		BDC85A482C6CD7400001C46D /* whatBuyE.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A472C6CD7400001C46D /* whatBuyE.swift */; };
+		BDC85A4A2C6CD7670001C46D /* whatBuyS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A492C6CD7670001C46D /* whatBuyS.swift */; };
+		BDC85A4C2C6CD9690001C46D /* centralFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A4B2C6CD9690001C46D /* centralFood.swift */; };
+		BDC85A4E2C6CD9820001C46D /* centralShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A4D2C6CD9820001C46D /* centralShopping.swift */; };
+		BDC85A502C6CD99B0001C46D /* centralTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A4F2C6CD99B0001C46D /* centralTransportation.swift */; };
+		BDC85A522C6CD9DD0001C46D /* northFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A512C6CD9DD0001C46D /* northFood.swift */; };
+		BDC85A542C6CD9F00001C46D /* northShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A532C6CD9F00001C46D /* northShopping.swift */; };
+		BDC85A562C6CD9FA0001C46D /* northTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A552C6CD9FA0001C46D /* northTransportation.swift */; };
+		BDC85A5A2C6CDAC10001C46D /* westFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A592C6CDAC10001C46D /* westFood.swift */; };
+		BDC85A5C2C6CDB810001C46D /* westShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A5B2C6CDB810001C46D /* westShopping.swift */; };
+		BDC85A602C6CDD0B0001C46D /* westTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A5F2C6CDD0B0001C46D /* westTransportation.swift */; };
+		BDC85A622C6CDD3C0001C46D /* eastFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A612C6CDD3C0001C46D /* eastFood.swift */; };
+		BDC85A642C6CDD6A0001C46D /* eastShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A632C6CDD6A0001C46D /* eastShopping.swift */; };
+		BDC85A662C6CDD740001C46D /* eastTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A652C6CDD740001C46D /* eastTransportation.swift */; };
+		BDC85A682C6CDD790001C46D /* southFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A672C6CDD790001C46D /* southFood.swift */; };
+		BDC85A6A2C6CDD820001C46D /* southShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A692C6CDD820001C46D /* southShopping.swift */; };
+		BDC85A6C2C6CDD8B0001C46D /* southTransporation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A6B2C6CDD8B0001C46D /* southTransporation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,15 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD02E4A82C6A5562007CF61E /* Whatbuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whatbuy.swift; sourceTree = "<group>"; };
-		BD02E4AA2C6A579B007CF61E /* centralfood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralfood.swift; sourceTree = "<group>"; };
-		BD02E4AC2C6A57BA007CF61E /* centralshopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralshopping.swift; sourceTree = "<group>"; };
-		BD02E4AE2C6A57CC007CF61E /* centraltransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centraltransport.swift; sourceTree = "<group>"; };
 		BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dynamo W04 Bold Condensed.ttf"; sourceTree = "<group>"; };
 		BD39CC4F2C6B8B71005D4ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		BD39CC502C6B9124005D4ADE /* mapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapPage.swift; sourceTree = "<group>"; };
-		BD39CC542C6B9152005D4ADE /* foodPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodPage.swift; sourceTree = "<group>"; };
-		BD39CC582C6B916A005D4ADE /* transportationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transportationPage.swift; sourceTree = "<group>"; };
 		BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuy2.swift; sourceTree = "<group>"; };
 		BDBD19C22C6A1ECF0009C775 /* TerraTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraTrackApp.swift; sourceTree = "<group>"; };
@@ -73,6 +72,25 @@
 		BDBD19DC2C6A1ED10009C775 /* TerraTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBD19E02C6A1ED10009C775 /* TerraTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraTrackUITests.swift; sourceTree = "<group>"; };
 		BDBD19E22C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC85A432C6CD6CB0001C46D /* whatBuyN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyN.swift; sourceTree = "<group>"; };
+		BDC85A452C6CD70E0001C46D /* whatBuyW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyW.swift; sourceTree = "<group>"; };
+		BDC85A472C6CD7400001C46D /* whatBuyE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyE.swift; sourceTree = "<group>"; };
+		BDC85A492C6CD7670001C46D /* whatBuyS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyS.swift; sourceTree = "<group>"; };
+		BDC85A4B2C6CD9690001C46D /* centralFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralFood.swift; sourceTree = "<group>"; };
+		BDC85A4D2C6CD9820001C46D /* centralShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralShopping.swift; sourceTree = "<group>"; };
+		BDC85A4F2C6CD99B0001C46D /* centralTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralTransportation.swift; sourceTree = "<group>"; };
+		BDC85A512C6CD9DD0001C46D /* northFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northFood.swift; sourceTree = "<group>"; };
+		BDC85A532C6CD9F00001C46D /* northShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northShopping.swift; sourceTree = "<group>"; };
+		BDC85A552C6CD9FA0001C46D /* northTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northTransportation.swift; sourceTree = "<group>"; };
+		BDC85A592C6CDAC10001C46D /* westFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = westFood.swift; sourceTree = "<group>"; };
+		BDC85A5B2C6CDB810001C46D /* westShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = westShopping.swift; sourceTree = "<group>"; };
+		BDC85A5F2C6CDD0B0001C46D /* westTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = westTransportation.swift; sourceTree = "<group>"; };
+		BDC85A612C6CDD3C0001C46D /* eastFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eastFood.swift; sourceTree = "<group>"; };
+		BDC85A632C6CDD6A0001C46D /* eastShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eastShopping.swift; sourceTree = "<group>"; };
+		BDC85A652C6CDD740001C46D /* eastTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eastTransportation.swift; sourceTree = "<group>"; };
+		BDC85A672C6CDD790001C46D /* southFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southFood.swift; sourceTree = "<group>"; };
+		BDC85A692C6CDD820001C46D /* southShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southShopping.swift; sourceTree = "<group>"; };
+		BDC85A6B2C6CDD8B0001C46D /* southTransporation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southTransporation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,18 +150,30 @@
 			isa = PBXGroup;
 			children = (
 				BD39CC4F2C6B8B71005D4ADE /* Info.plist */,
-				BD39CC542C6B9152005D4ADE /* foodPage.swift */,
-				BD39CC582C6B916A005D4ADE /* transportationPage.swift */,
 				BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */,
 				BDBD19C72C6A1ECF0009C775 /* ContentView.swift */,
 				BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */,
-				BD02E4A82C6A5562007CF61E /* Whatbuy.swift */,
-				BD39CC502C6B9124005D4ADE /* mapPage.swift */,
+				BDC85A4B2C6CD9690001C46D /* centralFood.swift */,
+				BDC85A4D2C6CD9820001C46D /* centralShopping.swift */,
+				BDC85A4F2C6CD99B0001C46D /* centralTransportation.swift */,
+				BDC85A432C6CD6CB0001C46D /* whatBuyN.swift */,
+				BDC85A512C6CD9DD0001C46D /* northFood.swift */,
+				BDC85A532C6CD9F00001C46D /* northShopping.swift */,
+				BDC85A552C6CD9FA0001C46D /* northTransportation.swift */,
+				BDC85A452C6CD70E0001C46D /* whatBuyW.swift */,
+				BDC85A592C6CDAC10001C46D /* westFood.swift */,
+				BDC85A5F2C6CDD0B0001C46D /* westTransportation.swift */,
+				BDC85A5B2C6CDB810001C46D /* westShopping.swift */,
+				BDC85A472C6CD7400001C46D /* whatBuyE.swift */,
+				BDC85A612C6CDD3C0001C46D /* eastFood.swift */,
+				BDC85A632C6CDD6A0001C46D /* eastShopping.swift */,
+				BDC85A652C6CDD740001C46D /* eastTransportation.swift */,
+				BDC85A492C6CD7670001C46D /* whatBuyS.swift */,
+				BDC85A672C6CDD790001C46D /* southFood.swift */,
+				BDC85A692C6CDD820001C46D /* southShopping.swift */,
+				BDC85A6B2C6CDD8B0001C46D /* southTransporation.swift */,
 				BDBD19C92C6A1ED00009C775 /* Assets.xcassets */,
 				BD39CC4A2C6B8B24005D4ADE /* Font */,
-				BD02E4AA2C6A579B007CF61E /* centralfood.swift */,
-				BD02E4AC2C6A57BA007CF61E /* centralshopping.swift */,
-				BD02E4AE2C6A57CC007CF61E /* centraltransport.swift */,
 				BDBD19CB2C6A1ED00009C775 /* Preview Content */,
 			);
 			path = TerraTrack;
@@ -307,16 +337,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD02E4AB2C6A579B007CF61E /* centralfood.swift in Sources */,
+				BDC85A442C6CD6CB0001C46D /* whatBuyN.swift in Sources */,
+				BDC85A542C6CD9F00001C46D /* northShopping.swift in Sources */,
+				BDC85A522C6CD9DD0001C46D /* northFood.swift in Sources */,
+				BDC85A6A2C6CDD820001C46D /* southShopping.swift in Sources */,
+				BDC85A502C6CD99B0001C46D /* centralTransportation.swift in Sources */,
+				BDC85A4E2C6CD9820001C46D /* centralShopping.swift in Sources */,
+				BDC85A462C6CD70E0001C46D /* whatBuyW.swift in Sources */,
 				BD39CC5D2C6B9564005D4ADE /* whatBuy2.swift in Sources */,
-				BD39CC512C6B9124005D4ADE /* mapPage.swift in Sources */,
-				BD02E4AD2C6A57BA007CF61E /* centralshopping.swift in Sources */,
-				BD39CC592C6B916A005D4ADE /* transportationPage.swift in Sources */,
-				BD02E4A92C6A5562007CF61E /* Whatbuy.swift in Sources */,
 				BDBD19C82C6A1ECF0009C775 /* ContentView.swift in Sources */,
-				BD02E4AF2C6A57CC007CF61E /* centraltransport.swift in Sources */,
-				BD39CC552C6B9152005D4ADE /* foodPage.swift in Sources */,
+				BDC85A642C6CDD6A0001C46D /* eastShopping.swift in Sources */,
+				BDC85A682C6CDD790001C46D /* southFood.swift in Sources */,
+				BDC85A4A2C6CD7670001C46D /* whatBuyS.swift in Sources */,
+				BDC85A4C2C6CD9690001C46D /* centralFood.swift in Sources */,
+				BDC85A5C2C6CDB810001C46D /* westShopping.swift in Sources */,
+				BDC85A6C2C6CDD8B0001C46D /* southTransporation.swift in Sources */,
+				BDC85A482C6CD7400001C46D /* whatBuyE.swift in Sources */,
+				BDC85A622C6CDD3C0001C46D /* eastFood.swift in Sources */,
+				BDC85A662C6CDD740001C46D /* eastTransportation.swift in Sources */,
 				BDBD19C62C6A1ECF0009C775 /* TerraTrackApp.swift in Sources */,
+				BDC85A5A2C6CDAC10001C46D /* westFood.swift in Sources */,
+				BDC85A602C6CDD0B0001C46D /* westTransportation.swift in Sources */,
+				BDC85A562C6CD9FA0001C46D /* northTransportation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +366,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD39CC5A2C6B916A005D4ADE /* transportationPage.swift in Sources */,
 				BD39CC5E2C6B9564005D4ADE /* whatBuy2.swift in Sources */,
-				BD39CC562C6B9152005D4ADE /* foodPage.swift in Sources */,
 				BDBD19D72C6A1ED00009C775 /* TerraTrackTests.swift in Sources */,
-				BD39CC522C6B9124005D4ADE /* mapPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,10 +377,7 @@
 			files = (
 				BDBD19E12C6A1ED10009C775 /* TerraTrackUITests.swift in Sources */,
 				BD39CC5F2C6B9564005D4ADE /* whatBuy2.swift in Sources */,
-				BD39CC5B2C6B916A005D4ADE /* transportationPage.swift in Sources */,
 				BDBD19E32C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift in Sources */,
-				BD39CC572C6B9152005D4ADE /* foodPage.swift in Sources */,
-				BD39CC532C6B9124005D4ADE /* mapPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
