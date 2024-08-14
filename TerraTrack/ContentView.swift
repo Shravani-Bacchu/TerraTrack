@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
+            
             VStack {
                 Text("TerraTrack")
                     .font(.custom("DynamoW04-BoldCondensed", size: 70))
@@ -44,7 +45,7 @@ struct ContentView: View {
                                 .padding(/*@START_MENU_TOKEN@*/.horizontal, 15.0/*@END_MENU_TOKEN@*/)
 
 
-                                NavigationLink(destination: whatBuy2()) {
+                                NavigationLink(destination: whatBuyC()) {
                                     Text("Centr.")
                                         .font(.title)
                                         .fontWeight(.bold)

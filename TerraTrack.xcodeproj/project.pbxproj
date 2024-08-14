@@ -10,9 +10,10 @@
 		BD39CC4C2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */; };
 		BD39CC4D2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */; };
 		BD39CC4E2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */; };
-		BD39CC5D2C6B9564005D4ADE /* whatBuy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */; };
-		BD39CC5E2C6B9564005D4ADE /* whatBuy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */; };
-		BD39CC5F2C6B9564005D4ADE /* whatBuy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */; };
+		BD8BFF432C6CE42100327018 /* cFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF422C6CE42100327018 /* cFood.swift */; };
+		BD8BFF452C6CE42B00327018 /* cShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF442C6CE42B00327018 /* cShopping.swift */; };
+		BD8BFF472C6CE43500327018 /* cTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF462C6CE43500327018 /* cTransportation.swift */; };
+		BD8BFF4B2C6CE58C00327018 /* whatBuyC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF4A2C6CE58C00327018 /* whatBuyC.swift */; };
 		BDBD19C62C6A1ECF0009C775 /* TerraTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */; };
 		BDBD19C82C6A1ECF0009C775 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD19C72C6A1ECF0009C775 /* ContentView.swift */; };
 		BDBD19CA2C6A1ED00009C775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBD19C92C6A1ED00009C775 /* Assets.xcassets */; };
@@ -24,9 +25,6 @@
 		BDC85A462C6CD70E0001C46D /* whatBuyW.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A452C6CD70E0001C46D /* whatBuyW.swift */; };
 		BDC85A482C6CD7400001C46D /* whatBuyE.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A472C6CD7400001C46D /* whatBuyE.swift */; };
 		BDC85A4A2C6CD7670001C46D /* whatBuyS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A492C6CD7670001C46D /* whatBuyS.swift */; };
-		BDC85A4C2C6CD9690001C46D /* centralFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A4B2C6CD9690001C46D /* centralFood.swift */; };
-		BDC85A4E2C6CD9820001C46D /* centralShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A4D2C6CD9820001C46D /* centralShopping.swift */; };
-		BDC85A502C6CD99B0001C46D /* centralTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A4F2C6CD99B0001C46D /* centralTransportation.swift */; };
 		BDC85A522C6CD9DD0001C46D /* northFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A512C6CD9DD0001C46D /* northFood.swift */; };
 		BDC85A542C6CD9F00001C46D /* northShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A532C6CD9F00001C46D /* northShopping.swift */; };
 		BDC85A562C6CD9FA0001C46D /* northTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC85A552C6CD9FA0001C46D /* northTransportation.swift */; };
@@ -61,7 +59,10 @@
 /* Begin PBXFileReference section */
 		BD39CC4B2C6B8B42005D4ADE /* Dynamo W04 Bold Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dynamo W04 Bold Condensed.ttf"; sourceTree = "<group>"; };
 		BD39CC4F2C6B8B71005D4ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuy2.swift; sourceTree = "<group>"; };
+		BD8BFF422C6CE42100327018 /* cFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cFood.swift; sourceTree = "<group>"; };
+		BD8BFF442C6CE42B00327018 /* cShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cShopping.swift; sourceTree = "<group>"; };
+		BD8BFF462C6CE43500327018 /* cTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cTransportation.swift; sourceTree = "<group>"; };
+		BD8BFF4A2C6CE58C00327018 /* whatBuyC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyC.swift; sourceTree = "<group>"; };
 		BDBD19C22C6A1ECF0009C775 /* TerraTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraTrackApp.swift; sourceTree = "<group>"; };
 		BDBD19C72C6A1ECF0009C775 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,9 +77,6 @@
 		BDC85A452C6CD70E0001C46D /* whatBuyW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyW.swift; sourceTree = "<group>"; };
 		BDC85A472C6CD7400001C46D /* whatBuyE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyE.swift; sourceTree = "<group>"; };
 		BDC85A492C6CD7670001C46D /* whatBuyS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyS.swift; sourceTree = "<group>"; };
-		BDC85A4B2C6CD9690001C46D /* centralFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralFood.swift; sourceTree = "<group>"; };
-		BDC85A4D2C6CD9820001C46D /* centralShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralShopping.swift; sourceTree = "<group>"; };
-		BDC85A4F2C6CD99B0001C46D /* centralTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralTransportation.swift; sourceTree = "<group>"; };
 		BDC85A512C6CD9DD0001C46D /* northFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northFood.swift; sourceTree = "<group>"; };
 		BDC85A532C6CD9F00001C46D /* northShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northShopping.swift; sourceTree = "<group>"; };
 		BDC85A552C6CD9FA0001C46D /* northTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northTransportation.swift; sourceTree = "<group>"; };
@@ -152,10 +150,10 @@
 				BD39CC4F2C6B8B71005D4ADE /* Info.plist */,
 				BDBD19C52C6A1ECF0009C775 /* TerraTrackApp.swift */,
 				BDBD19C72C6A1ECF0009C775 /* ContentView.swift */,
-				BD39CC5C2C6B9564005D4ADE /* whatBuy2.swift */,
-				BDC85A4B2C6CD9690001C46D /* centralFood.swift */,
-				BDC85A4D2C6CD9820001C46D /* centralShopping.swift */,
-				BDC85A4F2C6CD99B0001C46D /* centralTransportation.swift */,
+				BD8BFF4A2C6CE58C00327018 /* whatBuyC.swift */,
+				BD8BFF422C6CE42100327018 /* cFood.swift */,
+				BD8BFF442C6CE42B00327018 /* cShopping.swift */,
+				BD8BFF462C6CE43500327018 /* cTransportation.swift */,
 				BDC85A432C6CD6CB0001C46D /* whatBuyN.swift */,
 				BDC85A512C6CD9DD0001C46D /* northFood.swift */,
 				BDC85A532C6CD9F00001C46D /* northShopping.swift */,
@@ -341,20 +339,20 @@
 				BDC85A542C6CD9F00001C46D /* northShopping.swift in Sources */,
 				BDC85A522C6CD9DD0001C46D /* northFood.swift in Sources */,
 				BDC85A6A2C6CDD820001C46D /* southShopping.swift in Sources */,
-				BDC85A502C6CD99B0001C46D /* centralTransportation.swift in Sources */,
-				BDC85A4E2C6CD9820001C46D /* centralShopping.swift in Sources */,
 				BDC85A462C6CD70E0001C46D /* whatBuyW.swift in Sources */,
-				BD39CC5D2C6B9564005D4ADE /* whatBuy2.swift in Sources */,
+				BD8BFF432C6CE42100327018 /* cFood.swift in Sources */,
+				BD8BFF452C6CE42B00327018 /* cShopping.swift in Sources */,
+				BD8BFF4B2C6CE58C00327018 /* whatBuyC.swift in Sources */,
 				BDBD19C82C6A1ECF0009C775 /* ContentView.swift in Sources */,
 				BDC85A642C6CDD6A0001C46D /* eastShopping.swift in Sources */,
 				BDC85A682C6CDD790001C46D /* southFood.swift in Sources */,
 				BDC85A4A2C6CD7670001C46D /* whatBuyS.swift in Sources */,
-				BDC85A4C2C6CD9690001C46D /* centralFood.swift in Sources */,
 				BDC85A5C2C6CDB810001C46D /* westShopping.swift in Sources */,
 				BDC85A6C2C6CDD8B0001C46D /* southTransporation.swift in Sources */,
 				BDC85A482C6CD7400001C46D /* whatBuyE.swift in Sources */,
 				BDC85A622C6CDD3C0001C46D /* eastFood.swift in Sources */,
 				BDC85A662C6CDD740001C46D /* eastTransportation.swift in Sources */,
+				BD8BFF472C6CE43500327018 /* cTransportation.swift in Sources */,
 				BDBD19C62C6A1ECF0009C775 /* TerraTrackApp.swift in Sources */,
 				BDC85A5A2C6CDAC10001C46D /* westFood.swift in Sources */,
 				BDC85A602C6CDD0B0001C46D /* westTransportation.swift in Sources */,
@@ -366,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD39CC5E2C6B9564005D4ADE /* whatBuy2.swift in Sources */,
 				BDBD19D72C6A1ED00009C775 /* TerraTrackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,7 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBD19E12C6A1ED10009C775 /* TerraTrackUITests.swift in Sources */,
-				BD39CC5F2C6B9564005D4ADE /* whatBuy2.swift in Sources */,
 				BDBD19E32C6A1ED10009C775 /* TerraTrackUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  southShopping.swift
+//  cTransportation.swift
 //  TerraTrack
 //
 //  Created by Scholar on 14/08/2024.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct southShopping: View {
+struct cTransportation: View {
     var body: some View {
-        Text("Hello, sShopping!")
+        Text("Hello, cTransportation!")
     }
 }
 
 #Preview {
-    southShopping()
+    cTransportation()
 }

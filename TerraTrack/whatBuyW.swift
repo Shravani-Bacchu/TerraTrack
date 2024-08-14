@@ -62,6 +62,6 @@ struct whatBuyW: View {
     }
    
 #Preview {
-    whatBuy2()
+    whatBuyW()
 }
 
