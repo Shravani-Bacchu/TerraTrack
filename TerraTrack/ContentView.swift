@@ -9,6 +9,7 @@
 import SwiftUI
 struct ContentView: View {
     var body: some View {
+    NavigationStack{
         ZStack{
             
             VStack {
@@ -20,7 +21,7 @@ struct ContentView: View {
                     .font(.title2)
                     .fontWeight(.bold)
 
-                NavigationStack{
+                
                     ZStack{
                         Image("londonMap")
                             .resizable(resizingMode: .stretch)
