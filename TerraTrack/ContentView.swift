@@ -11,22 +11,25 @@ struct ContentView: View {
     var body: some View {
     NavigationStack{
         ZStack{
-            
+            Color(.customLightGreen)
+                .ignoresSafeArea()
             VStack {
                 Text("TerraTrack")
                     .font(.custom("DynamoW04-BoldCondensed", size: 70))
                     .foregroundColor(Color.customGreen)
+                  
                 
                 Text("Select your region")
                     .font(.title2)
                     .fontWeight(.bold)
-
+                    .padding(.bottom, 55.0)
                 
                     ZStack{
-                        Image("londonMap")
+                        Image("londonMap2")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
-                            .padding(/*@START_MENU_TOKEN@*/.bottom/*@END_MENU_TOKEN@*/)
+                            .padding(/*@START_MENU_TOKEN@*/)
+                            .cornerRadius(100)
                         VStack{
                             NavigationLink(destination: whatBuyN()) {
                                 Text("North")
@@ -43,7 +46,7 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(Color.black)
                                 }
-                                .padding(/*@START_MENU_TOKEN@*/.horizontal, 15.0/*@END_MENU_TOKEN@*/)
+                                .padding(/*@START_MENU_TOKEN@*/[.top, .leading, .trailing], 15.0/*@END_MENU_TOKEN@*/)
 
 
                                 NavigationLink(destination: whatBuyC()) {
@@ -61,7 +64,7 @@ struct ContentView: View {
                                 }
                                // .padding(/*@START_MENU_TOKEN@*/.horizontal, 30.0/*@END_MENU_TOKEN@*/)
                             }
-                            .padding(/*@START_MENU_TOKEN@*/[.bottom, .trailing], 45.0/*@END_MENU_TOKEN@*/)
+                            .padding(/*@START_MENU_TOKEN@*/[.bottom, .trailing], 25.0/*@END_MENU_TOKEN@*/)
                             NavigationLink(destination: whatBuyS()) {
                                 Text("South")
                                     .font(.title)
